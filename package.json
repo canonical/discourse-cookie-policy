@@ -5,6 +5,9 @@
   "repository": "git@github.com:canonical/discourse-cookie-policy.git",
   "author": "Peter French <peter.french@canonical.com>",
   "license": "MIT",
+  "scripts": {
+    "build-cookie-policy": "cp node_modules/@canonical/cookie-policy/build/js/cookie-policy.js javascripts/cookie-policy.js && cp node_modules/@canonical/cookie-policy/build/css/cookie-policy.css stylesheets/cookie-policy.css"
+  },
   "devDependencies": {
     "@canonical/cookie-policy": "3.6.4"
   }
