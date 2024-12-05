@@ -1,0 +1,11 @@
+{
+  "name": "discourse-cookie-policy",
+  "version": "1.0.0",
+  "description": "Discourse plugin for a cookie policy notification",
+  "repository": "git@github.com:canonical/discourse-cookie-policy.git",
+  "author": "Peter French <peter.french@canonical.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@canonical/cookie-policy": "3.6.4"
+  }
+}
